@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ABES Engineering College - Timetable</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #eef6f9;
+            margin: 40px;
+        }
+        h1 {
+            text-align: center;
+            color: #003366;
+        }
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            margin-top: 20px;
+            background-color: #fff;
+        }
+        caption {
+            caption-side: top;
+            font-size: 1.3em;
+            font-weight: bold;
+            color: #003366;
+            margin-bottom: 10px;
+        }
+        th, td {
+            border: 2px solid #003366;
+            text-align: center;
+            padding: 10px;
+        }
+        th {
+            background-color: #cce0ff;
+        }
+        .nested-table {
+            width: 100%;
+            border: 1px solid #666;
+            border-collapse: collapse;
+        }
+        .nested-table th, .nested-table td {
+            border: 1px solid #666;
+            padding: 5px;
+            font-size: 0.9em;
+        }
+        .lunch {
+            background-color: #ffd480;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>&#127979; ABES Engineering College</h1>
+
+    <table>
+        <caption>B.Tech Computer Science (Semester I) - Weekly Timetable</caption>
+        <thead>
+            <tr>
+                <th>Day</th>
+                <th>8:50 - 9:40</th>
+                <th>9:50 - 10:30</th>
+                <th>10:40 - 11:30</th>
+                <th>11:30 - 12:00</th>
+                <th>12:00 - 1:00</th>
+                <th>1:00 - 2:00</th>
+                <th>2:10 - 4:30</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th>Monday</th>
+                <td>Web Designing Workshop I</td>
+                <td>Data Structures</td>
+                <td rowspan="2">Computer Networks</td>
+                <td>English Communication</td>
+                <td class="lunch" rowspan="6">Lunch Break</td>
+                <td>Library</td>
+                <td rowspan="2">
+                    <!-- Nested Table -->
+                    <table class="nested-table">
+                        <tr><th colspan="2">Lab Schedule</th></tr>
+                        <tr><td>2:10–3:20</td><td>Python Lab</td></tr>
+                        <tr><td>3:30–4:30</td><td>DBMS Lab</td></tr>
+                    </table>
+                </td>
+            </tr>
+            <tr>
+                <th>Tuesday</th>
+                <td>Data Structures</td>
+                <td>Mathematics I</td>
+                <td>Operating Systems</td>
+                <td>Sports</td>
+            </tr>
+            <tr>
+                <th>Wednesday</th>
+                <td colspan="2">Workshop on Artificial Intelligence</td>
+                <td>English</td>
+                <td>Physics</td>
+                <td>Mathematics I</td>
+                <td>Computer Lab</td>
+            </tr>
+            <tr>
+                <th>Thursday</th>
+                <td>Operating Systems</td>
+                <td>Mathematics I</td>
+                <td>Data Structures</td>
+                <td>English</td>
+                <td>Library</td>
+                <td rowspan="2">
+                    <table class="nested-table">
+                        <tr><th colspan="2">Lab Schedule</th></tr>
+                        <tr><td>2:10–3:20</td><td>Web Dev Lab</td></tr>
+                        <tr><td>3:30–4:30</td><td>Java Lab</td></tr>
+                    </table>
+                </td>
+            </tr>
+            <tr>
+                <th>Friday</th>
+                <td>Computer Networks</td>
+                <td>Statistics</td>
+                <td>Mathematics I</td>
+                <td>Project Work</td>
+                <td>Sports</td>
+            </tr>
+            <tr>
+                <th>Saturday</th>
+                <td colspan="4">Seminar / Guest Lecture</td>
+                <td>Club Activities</td>
+                <td>-</td>
+            </tr>
+        </tbody>
+    </table>
+
+</body>
+</html>

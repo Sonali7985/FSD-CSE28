@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Times of India - Latest News</title>
+    <style>
+        body {
+            font-family: "Times New Roman", serif;
+            margin: 0;
+            background-color: #f4f4f4;
+            color: #222;
+        }
+        header {
+            background-color: #b30000;
+            color: white;
+            padding: 15px;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2em;
+        }
+        nav {
+            background-color: #333;
+            overflow: hidden;
+        }
+        nav a {
+            float: left;
+            color: white;
+            text-decoration: none;
+            padding: 14px 20px;
+        }
+        nav a:hover {
+            background-color: #b30000;
+        }
+        section {
+            padding: 20px;
+        }
+        article {
+            background-color: white;
+            margin-bottom: 20px;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 6px rgba(0,0,0,0.2);
+        }
+        article img {
+            max-width: 100%;
+            border-radius: 5px;
+        }
+        .video-container {
+            text-align: center;
+            margin: 15px 0;
+        }
+        iframe {
+            border-radius: 8px;
+            box-shadow: 0 0 6px rgba(0,0,0,0.3);
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 15px;
+        }
+        footer a {
+            color: #ffcc00;
+            text-decoration: none;
+        }
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1>&#128240; The Times of India</h1>
+        <p>Your Trusted Source for Breaking News</p>
+    </header>
+
+    <!-- Navigation Bar -->
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#india">India</a>
+        <a href="#world">World</a>
+        <a href="#sports">Sports</a>
+        <a href="#entertainment">Entertainment</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <!-- Main Content -->
+    <section id="home">
+        <article id="india">
+            <h2>Top Story: India Launches New Space Mission</h2>
+            <img src="https://images.unsplash.com/photo-1446776811953-b23d57bd21aa" alt="ISRO Launch">
+            <p>
+                The Indian Space Research Organisation (ISRO) has successfully launched its latest mission 
+                to explore the Moon’s south pole. The mission, named *Chandrayaan-4*, aims to study lunar 
+                soil composition and water presence.
+            </p>
+            <p>
+                For more updates, visit the official 
+                <a href="https://timesofindia.indiatimes.com" target="_blank">Times of India website</a>.
+            </p>
+        </article>
+
+        <article id="world">
+            <h2>World: Global Summit on Renewable Energy</h2>
+            <img src="https://images.unsplash.com/photo-1509395176047-4a66953fd231" alt="Energy Summit">
+            <p>
+                World leaders gathered in Paris to commit to sustainable energy goals. The discussions focused 
+                on solar, wind, and green hydrogen projects.
+            </p>
+            <div class="video-container">
+                <h3>Watch: Highlights from the Summit</h3>
+                <!-- Embedded YouTube Video -->
+                <iframe width="560" height="315" 
+                    src="https://www.youtube.com/embed/2ePf9rue1Ao" 
+                    title="YouTube video player" frameborder="0" allowfullscreen>
+                </iframe>
+            </div>
+        </article>
+
+        <article id="sports">
+            <h2>Sports: India Wins Thrilling Cricket Match</h2>
+            <img src="https://images.unsplash.com/photo-1517649763962-0c623066013b" alt="Cricket Match">
+            <p>
+                In a nail-biting finish, India defeated Australia by 3 wickets in the final over. 
+                The win sealed the series 3-2 for India. Fans celebrated across the country with fireworks and cheers.
+            </p>
+            
+
+        <article id="entertainment">
+            <h2>Entertainment: Bollywood’s Biggest Night!</h2>
+            <img src="https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4" alt="Bollywood Awards">
+            <p>
+                The Filmfare Awards lit up Mumbai last night, with top stars walking the red carpet. 
+                Catch the highlights and red-carpet interviews on our 
+                <a href="https://www.youtube.com/@timesofindia" target="_blank">official YouTube channel</a>.
+            </p>
+        </article>
+    </section>
+
+    <!-- Footer -->
+    <footer id="contact">
+        <p>&#169; 2025 The Times of India | All Rights Reserved</p>
+        <p>
+            Follow us on 
+            <a href="https://twitter.com/timesofindia" target="_blank">Twitter</a> |
+            <a href="mailto:contact@timesofindia.com">Email Us</a>
+        </p>
+    </footer>
+
+</body>
+</html>
