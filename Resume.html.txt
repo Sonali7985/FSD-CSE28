@@ -1,0 +1,26 @@
+<html>
+<html lang="en">
+<head>
+<meta character="UTF8">
+<meta view contant>
+<title>RESUME</title>
+</head>
+<body>
+<h1><b><u>RESUME</u></b></h1>
+<h3><i>Introdiction</i></h3>
+<p>Greeting,i am <b><u>SONALI SINGH</u></b>.I am from GORAKHPUR. I have done my <b>BTECH(CSE)</b> from <b>ABES ENGINEERING COLLEGE.</p>
+<ol>
+<h3>Qualification (ordered list)</h3>
+<li>9+CGPA in btech </li>
+<li>internship experience</li>
+</ol>
+<ul>
+<h3>Certificates (unorderd list)</h3>
+<li> deloit certificate</li>
+</ul>
+<dl>
+<h3> description list</h3>
+<li>google certificate</li>
+
+</body>
+</html>
