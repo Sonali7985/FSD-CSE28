@@ -14,6 +14,35 @@
         body {
             background-color: #eaeaea;
         }
+         *{
+            margin:0;
+            padding:0;
+            box-sizing: border-box;
+        }
+        nav{
+            height: 80px;
+            width: 100%;
+            background-color: black;
+        }
+        ul{
+            list-style-type: none;    
+        }
+        ul li{ 
+            display:inline;
+            border-right:1px solid white ;
+            line-height: 80px;
+        }
+        ul li a{
+color: white;
+text-decoration: none;
+padding: 12px;
+float: centre;
+font-size: large;
+        }
+        ul li a:hover{
+            color: yellow;
+            border-bottom:2px solid yellow;
+        }
 
         /* Navbar */
         .navbar {
@@ -51,7 +80,7 @@
 
         /* Banner */
         .banner {
-            background: url("https://images.unsplash.com/photo-1523275335684-37898b6baf30") center/cover;
+            background: url("https://m.media-amazon.com/images/G/31/img20/AmazonLaunchpad/2022/Jupiter/phase2/gateway/phase4/Fashion--accessories_PC.jpg") center/cover;
             height: 300px;
         }
 
@@ -122,6 +151,18 @@
             <div>Cart</div>
         </div>
     </div>
+    <div>
+    <nav>
+    <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Product</a></li>
+        <li><a href="#">Categories</a></li>
+        <li><a href="#">Deals</a></li>
+        
+    </ul>
+   </nav> 
+   </div>
+
 
     <div class="banner"></div>
 
@@ -129,34 +170,34 @@
         <div class="product">
             <img src="https://images.unsplash.com/photo-1511707171634-5f897ff02aa9">
             <h3>Wireless Headphones</h3>
-            <p class="price">$59.99</p>
-            <button>Add to Cart</button>
+            <p class="price">₹5,999</p>
+           <button onclick="add()">Add to Cart</button>
         </div>
 
         <div class="product">
             <img src="https://images.unsplash.com/photo-1581291518857-4e27b48ff24e">
             <h3>Smart Watch</h3>
-            <p class="price">$89.99</p>
-            <button>Add to Cart</button>
+            <p class="price">₹8,999</p>
+            <button onclick="add()">Add to Cart</button>
         </div>
 
         <div class="product">
-            <img src="https://images.unsplash.com/photo-1585386959984-a415522c4f6f">
-            <h3>Bluetooth Speaker</h3>
-            <p class="price">$39.99</p>
-            <button>Add to Cart</button>
+            <img src="https://24thspoke.in/cdn/shop/files/1723225434788.jpg?v=1723225463&width=1200">
+        <h3>Sweater</h3>
+        <p class="price">₹299</p>
+            <button onclick="add()">Add to Cart</button>
         </div>
 
         <div class="product">
             <img src="https://images.unsplash.com/photo-1542291026-7eec264c27ff">
             <h3>Running Shoes</h3>
-            <p class="price">$79.99</p>
-            <button>Add to Cart</button>
+            <p class="price">₹7,999</p>
+            <button onclick="add()">Add to Cart</button>
         </div>
     </div>
 
     <footer>
-        © 2025 Amazon Clone | HTML & CSS Only
+         Amazon Clone 
     </footer>
 
 </body>
