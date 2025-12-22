@@ -71,7 +71,12 @@ font-size: large;
             border: none;
             border-radius: 4px;
         }
-
+.products{
+  display:grid;
+  grid-template-columns:repeat(auto-fill,minmax(220px,1fr));
+  gap:20px;
+  padding:20px;
+}
         .nav-links {
             display: flex;
             gap: 15px;
@@ -154,10 +159,12 @@ font-size: large;
     <div>
     <nav>
     <ul>
-        <li><a href="#">Home</a></li>
+        <li><a href="#">All</a></li>
         <li><a href="#">Product</a></li>
-        <li><a href="#">Categories</a></li>
-        <li><a href="#">Deals</a></li>
+        <li><a href="#">Electronics items</a></li>
+        <li><a href="#">Today's Deals</a></li>
+          <li><a href="#">Best Seller</a></li>
+
         
     </ul>
    </nav> 
@@ -175,7 +182,7 @@ font-size: large;
         </div>
 
         <div class="product">
-            <img src="https://images.unsplash.com/photo-1581291518857-4e27b48ff24e">
+            <img src="https://hips.hearstapps.com/hmg-prod/images/smart-watches-66b2458a6d5d9.png?crop=0.500xw:1.00xh;0.00326xw,0&resize=640:*">
             <h3>Smart Watch</h3>
             <p class="price">₹8,999</p>
             <button onclick="add()">Add to Cart</button>
@@ -187,14 +194,9 @@ font-size: large;
         <p class="price">₹299</p>
             <button onclick="add()">Add to Cart</button>
         </div>
-
-        <div class="product">
-            <img src="https://images.unsplash.com/photo-1542291026-7eec264c27ff">
-            <h3>Running Shoes</h3>
-            <p class="price">₹7,999</p>
-            <button onclick="add()">Add to Cart</button>
         </div>
     </div>
+  
 
     <footer>
          Amazon Clone 
